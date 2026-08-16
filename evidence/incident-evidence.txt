@@ -1,1 +1,22 @@
+cd ~/malware-lab
+{
+    echo "===== DATE ====="
+    date
 
+    echo
+    echo "===== PROTECTED DIRECTORY ====="
+    ls -lah protected
+
+    echo
+    echo "===== ALERT LOG ====="
+    cat logs/alerts.log
+
+    echo
+    echo "===== PROCESSES ====="
+    ps aux
+
+} > evidence/incident_evidence.txt
+
+Review the evidence:
+
+cat evidence/incident_evidence.txt
