@@ -1,1 +1,23 @@
+Go to the protected directory:
 
+cd ~/malware-lab/protected
+
+Create ten harmless test files:
+
+for i in {1..10}; do
+    echo "Laboratory test document $i" > "document_$i.txt"
+done
+
+Verify:
+
+ls -l
+
+Expected:
+
+document_1.txt
+document_2.txt
+document_3.txt
+...
+document_10.txt
+
+These are dummy files created only for the laboratory.
