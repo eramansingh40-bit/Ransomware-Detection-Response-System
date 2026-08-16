@@ -1,1 +1,19 @@
+┌──(kali㉿kali)-[~/malware-lab]
+└─$ mkdir -p ~/malware-lab/evidence/suspicious_files
 
+┌──(kali㉿kali)-[~/malware-lab]
+└─$ mv ~/malware-lab/protected/*.locked \
+     ~/malware-lab/evidence/suspicious_files/
+
+┌──(kali㉿kali)-[~/malware-lab]
+└─$ mv ~/malware-lab/protected/RANSOM_NOTE.txt \
+     ~/malware-lab/evidence/suspicious_files/
+
+┌──(kali㉿kali)-[~/malware-lab]
+└─$ ls -lah evidence/suspicious_files/
+
+document_1.txt.locked
+document_2.txt.locked
+document_3.txt.locked
+...
+RANSOM_NOTE.txt
