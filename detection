@@ -1,1 +1,15 @@
+This project performs behavioral analysis rather than reverse engineering.
 
+Observed Behavior
+
+The simulator caused files to change from:
+
+document_1.txt
+
+to:
+
+document_1.txt.locked
+
+A fake ransom note was also created:
+
+RANSOM_NOTE.txt
