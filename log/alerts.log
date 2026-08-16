@@ -1,1 +1,10 @@
+cat ~/malware-lab/logs/alerts.log
 
+Example:
+
+[HIGH] Suspicious ransomware indicator detected: document_1.txt.locked
+[HIGH] Suspicious ransomware indicator detected: document_2.txt.locked
+[HIGH] Suspicious ransomware indicator detected: document_3.txt.locked
+[CRITICAL] Ransom note detected
+
+The alert log provides evidence that suspicious activity was detected.
